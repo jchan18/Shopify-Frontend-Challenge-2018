@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Shopify Intern Challenge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <body>
+  <div class="main-content">
+    <h1>
+      Stay up to date with ecommerce trends with Shopify's newsletter
+    </h1>
+      <form id="form" action="">
+      <h3>Subscribe for free marketing tips</h3>
+      <div id="fields">
+        <input type="text" class="btn" id="email" placeholder="Email Address"/>
+        <div class="select-interest">
+          <select required id="interest">
+          <option value="" disabled selected hidden>Interested in...</option>
+          <option value="0">Marketing</option>
+          <option value="1">Mobile Development</option>
+          <option value="2">UI/UX Design</option>
+          <option value="3">Software Engineering</option>
+      </select>
+        </div>
+        
+      </div>
+      
+      <p id="email-error" class="error hide">Please enter a valid email address</p>
+        <p id="dd-error" class="error hide">Please select a value from the dropdown</p>
+      <input type="submit" name="submit-btn" class="btn" value="Sign up now" id="submit-btn" onClick="change(event)"/>
+<!--         <p>boo</p>
+        </input> -->
+    </form>
+    
+    
+    <div id="thank-you-msg" class="hide">
+      <h4>Thanks for subscribing</h4>
+      <p>You'll start receiving free tips and resources soon.</p>
+    </div>
+  </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
