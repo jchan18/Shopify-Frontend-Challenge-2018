@@ -1,4 +1,4 @@
-# Shopify Frontend Developer Challenge F18
+## Shopify Frontend Developer Challenge F18
 
 A frontend made for the Shopify Frontend Developer Intern application for Fall 2018.
 It performs a form validation and describes any errors encountered in the submission of the form. 
